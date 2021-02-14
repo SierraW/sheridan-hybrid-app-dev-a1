@@ -1,0 +1,14 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Vaccine</ion-title>
+    <ion-buttons slot="start">
+      <ion-back-button text="back"></ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <app-status-of-cases></app-status-of-cases>
+  <app-message-sender></app-message-sender>
+  <app-vaccine-data-widget [selectedDate]="selectedDate"></app-vaccine-data-widget>
+</ion-content>

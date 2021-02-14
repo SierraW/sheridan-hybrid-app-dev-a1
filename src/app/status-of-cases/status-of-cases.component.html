@@ -1,0 +1,11 @@
+<ion-card color="warning">
+  <ion-card-header>
+    <ion-card-title>ONTARIO STATUS OF CASES</ion-card-title>
+  </ion-card-header>
+
+  <ion-card-content>
+    <div *ngFor="let item of onCases | keyvalue">
+      <h3><b>{{item.key}}:</b> {{item.value}}</h3>
+    </div>
+  </ion-card-content>
+</ion-card>

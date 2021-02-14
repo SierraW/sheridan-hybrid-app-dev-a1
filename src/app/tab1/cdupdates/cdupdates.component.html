@@ -1,0 +1,11 @@
+<ion-card color="primary">
+  <ion-card-header>
+    <ion-card-title>COVID-19 KEY UPDATES</ion-card-title>
+  </ion-card-header>
+
+  <ion-card-content>
+    <div *ngFor="let item of keyUpdatesData | keyvalue">
+      <h3><b>{{item.key}}:</b> {{item.value}}</h3>
+    </div>
+  </ion-card-content>
+</ion-card>

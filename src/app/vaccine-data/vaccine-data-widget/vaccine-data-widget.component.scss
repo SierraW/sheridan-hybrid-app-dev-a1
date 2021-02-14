@@ -1,0 +1,22 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+tr, td {
+  border: 1px solid black;
+}
+
+.title {
+
+}
+
+.content {
+
+}
+
+p {
+  max-width: 70%;
+  padding-left: 1rem;
+  word-wrap: break-word;
+}
